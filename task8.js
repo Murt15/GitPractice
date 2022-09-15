@@ -2,13 +2,13 @@ var form = document.getElementById('addForm');
 
 var itemList = document.getElementById('items');
 
-var filter = document.getElementById('filter');
+
 
 form.addEventListener('submit', addItem);
 
 itemList.addEventListener('click', removeItem);
 
-filter.addEventListener('keyup', filterItems);
+
 
 function addItem(e)
 {
